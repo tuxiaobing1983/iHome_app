@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">演示Demo</string>
+    <string name="company_intro">公司简介</string>
+    <string name="product_intro">产品简介</string>
+    <string name="enter_operation">进入操作界面</string>
+    <string name="room1">房间1</string>
+    <string name="room2">房间2</string>
+    <string name="kitchen">厨房</string>
+    <string name="washroom">洗手间</string>
+    <string name="parlour">客厅</string>
+    <string name="health_system">健康系统</string>
+    <string name="family_member_location">家庭成员路线</string>
+    <string name="top_light">顶灯</string>
+    <string name="wall_lamp">壁灯</string>
+    <string name="curtain">窗帘</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+    <string name="window_infrared">窗户红外探测</string>
+    <string name="someone">有人</string>
+    <string name="nobody">无人</string>
+    <string name="tv">电视</string>
+    <string name="air_condition">空调</string>
+    <string name="camera">摄像头控制</string>
+    <string name="light_control">灯光控制</string>
+    <string name="door_control"> 门控</string>
+    <string name="smoke_alarm">烟雾警报</string>
+    <string name="gas_alarm">煤气警报</string>
+    <string name="control_center">控制中心</string>
+    
+     <!-- Family member location related -->
+    <string name="family_member_name">称谓:</string>
+    <string name="family_member_coordinate">坐标:</string>
+    <string name="family_member_address">位置:</string>
+    <string name="family_member_update_time">更新时间:</string>
+   
+
+</resources>

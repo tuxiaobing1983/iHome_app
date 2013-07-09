@@ -1,0 +1,69 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0,1,2" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+         <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+
+          <Button android:id="@+id/drive" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2dip" android:layout_marginRight="2dip" android:layout_weight="1.0" android:text="驾车搜索" />
+
+          <Button android:id="@+id/transit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2dip" android:layout_marginRight="2dip" android:layout_weight="1.0" android:text="公交搜索" />
+
+          <Button android:id="@+id/walk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2dip" android:layout_marginRight="2dip" android:layout_weight="1.0" android:text="步行搜索" />
+      </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" >
+
+             <com.lc112.secco.MyRouteMapView
+                 android:id="@+id/bmapView"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:clickable="true" >
+             </com.lc112.secco.MyRouteMapView>
+
+             <LinearLayout
+                 android:id="@+id/pre_next_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_alignParentLeft="true"
+                 android:gravity="bottom|left"
+                 android:visibility="visible" >
+
+                 <Button
+                     android:id="@+id/pre"
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_marginLeft="2dip"
+                     android:layout_marginRight="2dip"
+                     android:layout_weight="1.0"
+                     android:background="@drawable/pre_" />
+
+                 <Button
+                     android:id="@+id/next"
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:layout_marginLeft="2dip"
+                     android:layout_marginRight="2dip"
+                     android:layout_weight="1.0"
+                     android:background="@drawable/next_" />
+
+             </LinearLayout>
+
+         </RelativeLayout>
+
+    </TableRow>
+
+</TableLayout>
